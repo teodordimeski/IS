@@ -77,6 +77,6 @@ public class CarService : ICarService
             selector: x => x,
             pageNumber: pageNumber,
             pageSize: pageSize,
-            include: x => x.Include(y => y.Rentals));
+            include: x => x.Include(r => r.Location).Include(y => y.Rentals).ThenInclude(r => r.User));
     }
 }

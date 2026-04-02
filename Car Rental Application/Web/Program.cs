@@ -1,7 +1,10 @@
+using System.Text;
 using EvolveDb;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Repository;
 using Repository.Interface;
 using Service.Implementation;
