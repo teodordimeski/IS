@@ -13,3 +13,4 @@
 /Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Repository/obj/Debug/net9.0/refint/Repository.dll
 /Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Repository/obj/Debug/net9.0/Repository.pdb
 /Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Repository/obj/Debug/net9.0/ref/Repository.dll
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Repository/obj/Debug/net9.0/Repository.sourcelink.json

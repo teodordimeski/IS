@@ -301,3 +301,4 @@
 /Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Web/obj/Debug/net9.0/Web.pdb
 /Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Web/obj/Debug/net9.0/Web.genruntimeconfig.cache
 /Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Web/obj/Debug/net9.0/ref/Web.dll
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application/Web/obj/Debug/net9.0/Web.sourcelink.json
