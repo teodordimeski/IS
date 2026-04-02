@@ -26,6 +26,7 @@ builder.Services.AddScoped<ICarService,CarService>();
 builder.Services.AddScoped<ICurrentUserService,CurrentUserService>();
 
 
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpContextAccessor();

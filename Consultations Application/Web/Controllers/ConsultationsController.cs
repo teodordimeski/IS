@@ -25,6 +25,7 @@ public class ConsultationsController : ControllerBase
     }
     
     //http://localhost:5063/api/consultations?dateAfter=2024-01-01
+    [HttpGet]
     public async Task<IActionResult> GetAllAsync([FromQuery] string? dateAfter)
     {
         var result = await _mapper.GetAllAsync(dateAfter);
