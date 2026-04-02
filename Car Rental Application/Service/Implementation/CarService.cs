@@ -20,7 +20,8 @@ public class CarService : ICarService
     {
         var result = await _carRepository.GetAsync(
             selector: x =>x,
-            predicate: x => x.Id == id);
+            predicate: x => x.Id == id,
+            include: q => q.Include(x => x.Location));
 
         if (result == null)
         {
@@ -29,20 +30,23 @@ public class CarService : ICarService
         return result;
     }
 
-    public async Task<List<Car>> GetAllAsync(string? LocationName)
+    public async Task<List<Car>> GetAllAsync(string? locationName)
     {
-        if (LocationName == null)
+        if (locationName == null)
         {
-            return await _carRepository.GetAllAsync(selector: x => x);
+            return await _carRepository.GetAllAsync(
+                selector: x => x,
+                include: q => q.Include(x => x.Location));
         }
         return await _carRepository.GetAllAsync(
             selector: x => x,
-            predicate: x => x.Location.Name == LocationName);
+            predicate: x => x.Location.Name == locationName,
+            include: q => q.Include(x => x.Location));
     }
 
     public async Task<Car> CreateAsync(CarDto dto)
     {
-        var Car = new Car()
+        var car = new Car()
         {
             Make = dto.Make,
             Model = dto.Model,
@@ -50,7 +54,7 @@ public class CarService : ICarService
             LocationId = dto.LocationId
         };
         
-        return await _carRepository.InsertAsync(Car);
+        return await _carRepository.InsertAsync(car);
     }
 
     public async Task<Car> UpdateAsync(Guid id, CarDto dto)

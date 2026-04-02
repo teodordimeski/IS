@@ -15,7 +15,7 @@ public static class CarMappingExtenstions
             car.Make,
             car.Model,
             car.LocationId,
-            car.Location.Name
+            car.Location?.Name ?? string.Empty
         );
     }
 
@@ -33,7 +33,7 @@ public static class CarMappingExtenstions
             Make = car.Make,
             Model = car.Model,
             LocationId = car.LocationId,
-            LocationName = car.Location.Name,
+            LocationName = car.Location?.Name ?? string.Empty,
             Rentals = car.Rentals.Select(r => r.ToResponse()).ToList()
         };
     }
