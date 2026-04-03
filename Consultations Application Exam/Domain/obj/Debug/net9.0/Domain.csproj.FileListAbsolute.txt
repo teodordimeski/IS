@@ -1,0 +1,25 @@
+/Users/teodordimeski/Downloads/Consultations Application/Domain/bin/Debug/net9.0/Domain.deps.json
+/Users/teodordimeski/Downloads/Consultations Application/Domain/bin/Debug/net9.0/Domain.dll
+/Users/teodordimeski/Downloads/Consultations Application/Domain/bin/Debug/net9.0/Domain.pdb
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/Domain.csproj.AssemblyReference.cache
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/Domain.dll
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/refint/Domain.dll
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/Domain.pdb
+/Users/teodordimeski/Downloads/Consultations Application/Domain/obj/Debug/net9.0/ref/Domain.dll
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/bin/Debug/net9.0/Domain.deps.json
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/bin/Debug/net9.0/Domain.dll
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/bin/Debug/net9.0/Domain.pdb
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.csproj.AssemblyReference.cache
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.sourcelink.json
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.dll
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/refint/Domain.dll
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/Domain.pdb
+/Users/teodordimeski/Documents/Faks/semestar VI/integrirani sistemi/vezbi/Consultations Application Exam/Domain/obj/Debug/net9.0/ref/Domain.dll
