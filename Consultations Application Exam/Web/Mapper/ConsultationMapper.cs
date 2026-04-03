@@ -10,7 +10,12 @@ namespace Web.Mapper;
 public class ConsultationMapper
 {
     private readonly IConsultationService _consultationService;
-    
+
+    public ConsultationMapper(IConsultationService consultationService)
+    {
+        _consultationService = consultationService;
+    }
+
     public async Task<ConsultationResponse> GetByIdNotNullAsync(Guid id)
     {
         var result = await _consultationService.GetByIdNotNullAsync(id);

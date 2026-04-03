@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Repository;
+using Repository.Interface;
+using Service.Implementation;
+using Service.Interface;
+using Web.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +23,11 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository.Implementation.Repository<>));
+builder.Services.AddScoped<IConsultationService, ConsultationService>();
+builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
+builder.Services.AddScoped<ConsultationMapper>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     {

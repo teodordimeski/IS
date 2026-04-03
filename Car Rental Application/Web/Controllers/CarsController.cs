@@ -44,7 +44,7 @@ public class CarsController :ControllerBase
     }
     
     [HttpPost]
-    [Authorize]
+    // [Authorize]
     public async Task<IActionResult> CreateAsync([FromBody] CreateOrUpdateCarRequest request)
     {
         var result = await _mapper.CreateAsync(request);
@@ -52,7 +52,7 @@ public class CarsController :ControllerBase
     }
 
     [HttpPut("{id}")]
-    [Authorize]
+    // [Authorize]
     public async Task<IActionResult> UpdateAsync([FromRoute] Guid id, [FromBody] CreateOrUpdateCarRequest request)
     {
         var result = await _mapper.UpdateAsync(id, request);

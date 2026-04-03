@@ -10,7 +10,12 @@ namespace Web.Controllers;
 public class ConsultationController : ControllerBase
 {
     private readonly ConsultationMapper _mapper;
-    
+
+    public ConsultationController(ConsultationMapper mapper)
+    {
+        _mapper = mapper;
+    }
+
     [HttpGet]
     public async Task<IActionResult> GetAllAsync([FromQuery] string? roomName, [FromQuery] DateOnly date)
     {

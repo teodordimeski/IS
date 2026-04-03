@@ -8,7 +8,12 @@ namespace Service.Implementation;
 public class ConsultationService:IConsultationService
 {
     private readonly IRepository<Consultation> _repository;
-    
+
+    public ConsultationService(IRepository<Consultation> repository)
+    {
+        _repository = repository;
+    }
+
     public async Task<Consultation> GetByIdNotNullAsync(Guid id)
     {
         var result = await _repository.GetAsync(
