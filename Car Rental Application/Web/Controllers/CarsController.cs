@@ -18,6 +18,7 @@ public class CarsController :ControllerBase
     
     //http://localhost:5284/api/Cars/EC70755C-E56F-4F40-A745-214A31B2D70B
     [HttpGet("{id}")]
+ 
     public async Task<IActionResult> GetByIdNotNullAsync(Guid id)
     {
         var result = await _mapper.GetByIdNotNullAsync(id);
@@ -44,7 +45,7 @@ public class CarsController :ControllerBase
     }
     
     [HttpPost]
-    // [Authorize]
+    [Authorize]
     public async Task<IActionResult> CreateAsync([FromBody] CreateOrUpdateCarRequest request)
     {
         var result = await _mapper.CreateAsync(request);
@@ -52,7 +53,7 @@ public class CarsController :ControllerBase
     }
 
     [HttpPut("{id}")]
-    // [Authorize]
+    [Authorize]
     public async Task<IActionResult> UpdateAsync([FromRoute] Guid id, [FromBody] CreateOrUpdateCarRequest request)
     {
         var result = await _mapper.UpdateAsync(id, request);
