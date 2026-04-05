@@ -18,7 +18,6 @@ public class CarsController :ControllerBase
     
     //http://localhost:5284/api/Cars/EC70755C-E56F-4F40-A745-214A31B2D70B
     [HttpGet("{id}")]
- 
     public async Task<IActionResult> GetByIdNotNullAsync(Guid id)
     {
         var result = await _mapper.GetByIdNotNullAsync(id);
