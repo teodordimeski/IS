@@ -1,1 +1,0 @@
-ALTER TABLE "Consultations" ADD COLUMN "RegisteredStudents" INTEGER DEFAULT 5;
