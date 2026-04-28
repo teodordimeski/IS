@@ -11,6 +11,7 @@ using Repository.Implementation;
 using Repository.Interface;
 using Service.Implementation;
 using Service.Interface;
+using Service.Jobs;
 using Web.Interceptor;
 using Web.Mapper;
 
@@ -103,6 +104,8 @@ builder.Services.AddScoped<ConsultationMapper>();
 builder.Services.AddScoped<AttendanceMapper>();
 builder.Services.AddScoped<RoomMapper>();
 builder.Services.AddScoped<HoldsMapper>();
+
+builder.Services.AddHostedService<AttendanceCleanupJob>();
 
 
 using var loggerFactory = LoggerFactory.Create(logging =>

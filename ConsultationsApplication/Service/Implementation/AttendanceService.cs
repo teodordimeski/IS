@@ -79,4 +79,17 @@ public class AttendanceService : IAttendanceService
             pageSize,
             include: q => q.Include(a => a.Room).Include(a => a.Consultation));
     }
+
+    public async Task<List<Attendance>> GetAllThatShouldBeDeleted(DateTime date)
+    {
+        return await _repo.GetAllAsync(
+            a => a,
+            predicate: a => a.Consultation.CreatedAt < date && a.Status==Status.Absent,
+            include: q => q.Include(a => a.Consultation));
+    }
+
+    public async Task<Attendance> DeleteByObject(Attendance attendance)
+    {
+        return await _repo.DeleteAsync(attendance);
+    }
 }

@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices.JavaScript;
 using Domain.Dto;
 using Domain.Enums;
 using Domain.Models;
@@ -12,4 +13,7 @@ public interface IAttendanceService
     Task<Attendance> UpdateAsync(Guid id, AttendanceDto dto);
     Task<Attendance> DeleteByIdAsync(Guid id);
     Task<PaginatedResult<Attendance>> GetPagedAsync(int pageNumber, int pageSize);
+    Task<List<Attendance>> GetAllThatShouldBeDeleted(DateTime date);
+    Task<Attendance> DeleteByObject(Attendance attendance);
+    
 }
