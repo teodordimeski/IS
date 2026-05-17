@@ -26,7 +26,7 @@ public class AttendanceCleanupJob : BackgroundService
                using var scope = _serviceScopeFactory.CreateScope();
                var attendanceService = scope.ServiceProvider.GetRequiredService<IAttendanceService>();
            
-               var toBeDeleted= await attendanceService.GetAllThatShouldBeDeleted(DateTime.UtcNow.AddMonths(-7));
+               var toBeDeleted= await attendanceService.GetAllThatShouldBeDeleted(DateTime.UtcNow.AddDays(-7));
                if (toBeDeleted.Count > 0)
                {
                    _logger.LogInformation("Fetched total of {attendancesCount} attendances", toBeDeleted.Count);

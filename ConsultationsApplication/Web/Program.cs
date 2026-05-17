@@ -20,6 +20,11 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
+builder.Services.AddDbContext<LegacyApplicationDbContext>(options =>
+    options.UseSqlite(
+        builder.Configuration.GetConnectionString("LegacyDB")));
+
+
 builder.Services.AddScoped<AuditInterceptor>();
 
 builder.Services.AddDbContext<ApplicationDbContext>((sp, options) =>
