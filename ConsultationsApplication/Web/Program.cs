@@ -111,7 +111,7 @@ builder.Services.AddScoped<RoomMapper>();
 builder.Services.AddScoped<HoldsMapper>();
 
 builder.Services.AddHostedService<AttendanceCleanupJob>();
-
+builder.Services.AddScoped<IConsultationRepository, ConsultationRepository>();
 
 using var loggerFactory = LoggerFactory.Create(logging =>
 {
