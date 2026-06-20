@@ -1,0 +1,101 @@
+[
+  {
+    "TestName": "ConsultationsApiClientTests.ApiClient_ShouldDeserializeResponse",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ApiClient",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:53.136618+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "ConsultationsApiClientTests.ApiClient_ShouldPassModifiedSinceDateAsQueryParam",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ApiClient",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:53.138694+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "ConsultationsApiClientTests.ApiClient_ShouldCallCorrectEndpoint",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ApiClient",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:53.139339+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "ConsultationsApiClientTests.ApiClient_ShouldIncludeApiKeyHeader",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ApiClient",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:53.139787+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "EnvironmentConfigurationTests.Staging_CacheSettings_ShouldHaveCorrectValues",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Configuration",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:56.230008+02:00",
+    "ErrorMessage": null,
+    "Points": 3
+  },
+  {
+    "TestName": "EnvironmentConfigurationTests.RateLimitSettings_ShouldHavePositiveValues_ForAllEnvironments",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Configuration",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:56.23177+02:00",
+    "ErrorMessage": null,
+    "Points": 3
+  },
+  {
+    "TestName": "EnvironmentConfigurationTests.Production_ApiKeySettings_ShouldHaveCorrectKey",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Configuration",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:56.232393+02:00",
+    "ErrorMessage": null,
+    "Points": 3
+  },
+  {
+    "TestName": "EnvironmentConfigurationTests.Development_CacheSettings_ShouldHaveCorrectValues",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Configuration",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:56.232919+02:00",
+    "ErrorMessage": null,
+    "Points": 3
+  },
+  {
+    "TestName": "EnvironmentConfigurationTests.Production_CacheSettings_ShouldHaveCorrectValues",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Configuration",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:56.233192+02:00",
+    "ErrorMessage": null,
+    "Points": 3
+  },
+  {
+    "TestName": "EnvironmentConfigurationTests.Staging_ApiKeySettings_ShouldHaveCorrectKey",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Configuration",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:56.233625+02:00",
+    "ErrorMessage": null,
+    "Points": 3
+  },
+  {
+    "TestName": "EnvironmentConfigurationTests.Development_ApiKeySettings_ShouldHaveCorrectKey",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Configuration",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-18T13:34:56.233869+02:00",
+    "ErrorMessage": null,
+    "Points": 3
+  }
+]
